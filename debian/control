@@ -1,0 +1,17 @@
+Source: test
+Section: admin
+Priority: optional
+Maintainer: Alexandre Detiste <alexandre.detiste@gmail.com>
+Build-Depends:
+    debhelper-compat (= 13),
+    dh-cruft,
+Standards-Version: 4.6.1.0
+Rules-Requires-Root: no
+
+Package: test
+Architecture: all
+Depends:
+  ${misc:Depends},
+Description: some test data for dh-cruft
+ more text1
+ more text2

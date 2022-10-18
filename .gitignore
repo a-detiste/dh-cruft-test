@@ -1,0 +1,5 @@
+debian/test.substvars
+debian/files
+debian/debhelper-build-stamp
+debian/.debhelper
+debian/test/
