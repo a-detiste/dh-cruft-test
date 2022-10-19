@@ -1,4 +1,6 @@
 #!/bin/sh
 set -e
 
-touch /tmp/purge
+mkdir -p /var/spool
+touch /var/spool/test_cruft_A
+touch /var/spool/test_purge_B
