@@ -1,0 +1,12 @@
+# build this with equivs
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: plocate
+Depends: mlocate
+Provides: debhelper-compat (= 13)
+Links: /usr/bin/mlocate /usr/bin/plocate
+Description: compat symlink for cruft-ng
+ this is needed to make current "cruftold"
+ barely build and run on Buster.
