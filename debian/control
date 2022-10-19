@@ -15,3 +15,18 @@ Depends:
 Description: some test data for dh-cruft
  more text1
  more text2
+
+Package: test-cruft
+Architecture: all
+Depends:
+  ${misc:Depends},
+Description: some test data for dh-cruft
+ more text1
+ more text2
+
+Package: test-purge
+Architecture: all
+Depends:
+  ${misc:Depends},
+Description: some test data for dh-cruft
+ more text1

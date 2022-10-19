@@ -1,6 +1,8 @@
-debian/test.substvars
 debian/files
 debian/debhelper-build-stamp
 debian/.debhelper
 debian/*.debhelper
+debian/*.substvars
 debian/test/
+debian/test-cruft/
+debian/test-purge/
