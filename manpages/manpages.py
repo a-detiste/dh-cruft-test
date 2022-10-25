@@ -16,7 +16,7 @@ dpkg |= dpkg_list
 
 cruft = set(subprocess.check_output('cat /home/tchet/cruft-ng/rules/* | grep ^/ | sort -u', shell=True, text=True).splitlines())
 
-is_etc = re.compile(r'/etc/[a-zA-Z0-9/.$*\-]*')
+is_etc = re.compile(r'/etc/[a-zA-Z0-9_/.$*\-]*')
 
 for page in glob.glob('/usr/share/man/*/*gz'):
     with gzip.open(page, 'rt') as fin:
