@@ -1,3 +1,4 @@
 /var/spool/test_purge*
+/var/spool/dir_with_stuff/
 
 # comment
