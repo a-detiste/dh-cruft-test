@@ -30,3 +30,10 @@ Depends:
   ${misc:Depends},
 Description: some test data for dh-cruft
  more text1
+
+Package: corpus
+Architecture: all
+Depends:
+  ${misc:Depends},
+Description: some test data for dh-cruft
+ corpus of all known rules
