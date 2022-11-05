@@ -1,0 +1,8 @@
+/etc/firebird/#VERSION#/SYSDBA.password
+/var/lib/firebird/#VERSION#
+/var/lib/firebird/#VERSION#/data
+/var/lib/firebird/#VERSION#/*.fdb
+/var/lib/firebird/#VERSION#/system
+/var/lib/firebird/#VERSION#/system/security3.fdb
+/var/lib/firebird/#VERSION#/data
+/var/log/firebird/firebird#VERSION#.log

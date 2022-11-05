@@ -37,3 +37,10 @@ Depends:
   ${misc:Depends},
 Description: some test data for dh-cruft
  corpus of all known rules
+
+Package: firebird3.0-server
+Architecture: all
+Depends:
+  ${misc:Depends},
+Description: some test data for dh-cruft
+ test for templating: automatic replacement of #VERSION#
