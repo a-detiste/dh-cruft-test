@@ -1,3 +1,5 @@
 /var/spool/test_purge*
 
 # comment
+# /var/spool/test_VERSION/
+/var/spool/test_#VERSION#/

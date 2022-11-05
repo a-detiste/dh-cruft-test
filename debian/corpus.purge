@@ -932,8 +932,8 @@
 /usr/src/libdvd-pkg/**
 /usr/lib/*/gdk-pixbuf-*/*/loaders.cache
 /usr/lib/*/gio/modules/giomodule.cache
-/usr/share/glib-2.0/schemas/gschemas.compiled
-/usr/lib/*/gtk-2.0/*/immodules.cache
+/usr/share/glib-#VERSION#/schemas/gschemas.compiled
+/usr/lib/*/gtk-#VERSION#/*/immodules.cache
 /usr/lib/*/gtk-3*/*/immodules.cache
 /usr/lib/*/gtk-4*/*/*/giomodule.cache
 /usr/lib/graphviz/config6
