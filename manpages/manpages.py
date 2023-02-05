@@ -6,6 +6,7 @@
 
 import glob
 import gzip
+import os
 import re
 import subprocess
 
@@ -14,11 +15,13 @@ dpkg.add('/etc')
 dpkg_list = set(subprocess.check_output('cat /var/lib/dpkg/info/*.list | sort -u', shell=True, text=True).splitlines())
 dpkg |= dpkg_list
 
-cruft = set(subprocess.check_output('cat /home/tchet/cruft-ng/rules/* | grep ^/ | sort -u', shell=True, text=True).splitlines())
+cruft = set(subprocess.check_output('cat /home/tchet/git/cruft-ng/rules/* | grep ^/ | sort -u', shell=True, text=True).splitlines())
 
 is_etc = re.compile(r'/etc/[a-zA-Z0-9_/.$*\-]*')
 
 for page in glob.glob('/usr/share/man/*/*gz'):
+    if not os.path.exists(page):
+        continue
     with gzip.open(page, 'rt') as fin:
         for line in fin:
             line = line.strip()
