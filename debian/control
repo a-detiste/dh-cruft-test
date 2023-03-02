@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Alexandre Detiste <alexandre.detiste@gmail.com>
 Build-Depends:
     debhelper-compat (= 13),
-    dh-cruft,
+    dh-sequence-cruft,
 Standards-Version: 4.6.1.0
 Rules-Requires-Root: no
 
