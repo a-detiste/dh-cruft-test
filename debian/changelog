@@ -1,4 +1,4 @@
-test (3.0-1) UNRELEASED; urgency=medium
+dh-cruft-test (3.0-1) UNRELEASED; urgency=medium
 
   * This will never be released
 
