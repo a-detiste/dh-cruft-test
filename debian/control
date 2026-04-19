@@ -1,12 +1,10 @@
-Source: test
+Source: dh-cruft-test
 Section: admin
-Priority: optional
 Maintainer: Alexandre Detiste <alexandre.detiste@gmail.com>
 Build-Depends:
     debhelper-compat (= 13),
     dh-sequence-cruft,
-Standards-Version: 4.6.1.0
-Rules-Requires-Root: no
+Standards-Version: 4.7.4
 
 Package: test
 Architecture: all
